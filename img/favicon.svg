@@ -2,12 +2,13 @@
   <rect width="180" height="180" fill="#fbfbfb"/>
   <text
     x="90"
-    y="102"
+    y="90"
     text-anchor="middle"
+    dominant-baseline="middle"
     font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
     font-size="40"
     font-weight="400"
-    letter-spacing="6"
+    letter-spacing="2"
     fill="#000000"
   >TONY</text>
 </svg>
