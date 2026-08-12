@@ -453,7 +453,7 @@ body.contact-overlay-open .footer-copyright {
   padding: 0 var(--side-padding);
   text-align: center;
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: var(--ui-weight);
   letter-spacing: 0.04em;
   line-height: 1.65;
