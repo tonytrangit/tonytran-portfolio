@@ -44,6 +44,7 @@ html,
 body {
   height: 100%;
   overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -208,7 +209,15 @@ a {
   border: none;
   background: transparent;
   padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
   -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
 }
 
 .click-zone:active,
@@ -216,6 +225,7 @@ a {
 .click-zone:focus-visible {
   background: transparent;
   outline: none;
+  box-shadow: none;
 }
 
 .click-zone-left {
