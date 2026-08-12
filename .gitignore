@@ -1,12 +1,4 @@
 .DS_Store
 *.log
 tonytran-site-deploy.zip
-
-# Hi-res originals — keep locally, deploy only web-optimized versions
-img/carousel/*.jpg
-img/carousel/*.jpeg
-img/carousel/*.png
-img/carousel/*.webp
-
-# Keep optimized assets
-!img/carousel/web/
+img/carousel/.DS_Store

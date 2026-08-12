@@ -1,4 +1,0 @@
-RewriteEngine On
-
-# Serve the homepage for /contact without changing the URL
-RewriteRule ^contact/?$ /index.html [L]
